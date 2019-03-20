@@ -330,7 +330,7 @@ func UniqueStr(data []string) []string {
 	return l
 }
 
-//split a into several parts, no more than n
+//SplitSlice splits a into several parts, no more than n
 func SplitSlice(a []string, n int) [][]string {
 	if len(a) < n || n == 1 {
 		return [][]string{a}
